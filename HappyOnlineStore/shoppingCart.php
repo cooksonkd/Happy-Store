@@ -5,7 +5,7 @@
 
     function __construct(){
       include("dbc.php");
-      $this->DBConnect = $dbc;
+      $this->DBConnect = $dbc;//
       // echo " object successfully created.<br>";
     }
 
